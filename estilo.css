@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+body{
+    background-color: rgb(43, 45, 49);
+    justify-content: center;
+}
+div{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    /*text-align: center;*/
+    color: white;
+}
+.calculadora{
+   /* margin: auto;
+    width: 20%;
+    height: 50%;
+    padding: 50px 50px;*/
+    width: 20%;
+    border: solid 3px black;
+    margin-top: 15%;
+}
+.visor{
+    border: 5px solid rgb(70, 70, 70);
+    text-align: right;
+    font-size: 50px;
+    background-color: rgb(128, 128, 128);
+    padding-right: 5px;
+}
+.conjuntobotoes{
+    border: 5px solid rgb(70, 70, 70);
+}
+.linhabotoes{
+    border: 0px solid rgb(70, 70, 70);
+    display: flex;
+}
+.botoes{
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 7px;
+    flex: 1;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    padding-top: 3px;
+}
+.botoes:hover{
+    background-color:rgb(87, 87, 87);
+    cursor: pointer;
+}
+.botoes:active{
+    background-color:rgb(68, 68, 68);
+}
